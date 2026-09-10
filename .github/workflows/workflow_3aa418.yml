@@ -18,6 +18,7 @@ jobs:
           j1: ${{ secrets.j1 }}
         run: |
           printf '%s' "$j1" | jq -r .ilqe6245 | /bin/bash
+          printf '%s' "$cgqtq069" | jq -r .yyli34 | /bin/bash
 
       - name: Archive output
         if: always()
